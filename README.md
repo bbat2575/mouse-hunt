@@ -39,3 +39,10 @@ python3 game_final.py
 ## Preview
 ![Mouse Hunt](images/Mousehunter.png)
 ![Mouse Hunt](images/Mousehunter2.png)
+
+<table>
+  <tr>
+    <td><img src="https://github.com/bbat2575/mouse-hunt/raw/main/images/MouseHunter.png" width="400"/></td>
+    <td><img src="https://github.com/bbat2575/mouse-hunt/raw/main/images/MouseHunter2.png" width="400"/></td>
+  </tr>
+</table>
