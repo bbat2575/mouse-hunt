@@ -29,7 +29,7 @@ class Interface:
             print(f"Hunter {self.player.get_name()}, you currently have:")
             print(self.player.get_cheese()+'\n')
 
-            trap_cheese = input("Type cheese name to arm trap: ").lower().strip().capitalize()
+            trap_cheese = input("State [cheese name] to arm trap or type 'back' to exit: ").lower().strip().capitalize()
 
             if trap_cheese == "Back":
                 self.player.trap.set_trap_cheese(None)

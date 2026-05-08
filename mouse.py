@@ -2,9 +2,6 @@
 Mouse Generator
 '''
 
-'''
-Keep this line!
-'''
 import random
 import art
 

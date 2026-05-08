@@ -4,9 +4,9 @@ Mini Mousehunt Game (Incomplete Version)
 
 import random
 import title
-import train_funcs
 import name
 import train
+import trains
 import shop
 
 # you can make more functions or global read-only variables here if you please!
@@ -62,7 +62,7 @@ def change_cheese(hunter_name: str, trap: str, cheese: list, e_flag: bool = Fals
         print(f"{cheese[1][0]} - {cheese[1][1]}")
         print(f"{cheese[2][0]} - {cheese[2][1]}\n")
 
-        trap_cheese = input("Type cheese name to arm trap: ").lower().strip().capitalize()
+        trap_cheese = input("State [cheese name] to arm trap or type 'back' to exit: ").lower().strip().capitalize()
 
         if trap_cheese == "Back":
             return False, None
@@ -114,7 +114,7 @@ def hunt(gold: int, cheese: list, trap_cheese: str | None, points: int) -> tuple
         counter = 0
 
         while counter < 5:
-            horn_input = train_funcs.sound_horn()
+            horn_input = trains.sound_horn()
             if horn_input == "stop hunt":
                 again = "no"
                 break

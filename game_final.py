@@ -1,5 +1,5 @@
 '''
-Mousehunt - The Full Game
+Mousehunt (The Full Game)
 '''
 
 import setup
@@ -219,7 +219,7 @@ def change_cheese(hunter_name: str, trap: str, cheese: list, enchant: bool = Fal
         print(f"{cheese[1][0]} - {cheese[1][1]}")
         print(f"{cheese[2][0]} - {cheese[2][1]}\n")
 
-        trap_cheese = input("Type cheese name to arm trap: ").lower().strip().capitalize()
+        trap_cheese = input("State [cheese name] to arm trap or type 'back' to exit: ").lower().strip().capitalize()
 
         if trap_cheese == "Back":
             return False, None

@@ -1,15 +1,5 @@
 '''
-We will use the art by Joan Stark as the logo:
-           ____()()
-          /      @@
-jgs `~~~~~\_;m__m._>o
-
-Game Title
-
-Name: Bassam Batch
-SID: 310229251
-unikey: bbat2575
-
+Mousehunt Title Screen
 '''
 
 def main():
@@ -20,7 +10,7 @@ def main():
       /      @@
 `~~~~~\_;m__m._>o'''
       
-      author = 'An INFO1110/COMP9001 Student'
+      author = 'Bassam Batch'
 
       credits = f'''
 Inspired by Mousehunt© Hitgrab
