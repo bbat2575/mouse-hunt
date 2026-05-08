@@ -37,4 +37,5 @@ python3 game_final.py
 ```
 
 ## Preview
-![Mouse Hunt](Mousehunter.png)
+![Mouse Hunt](images/Mousehunter.png)
+![Mouse Hunt](images/Mousehunter2.png)
