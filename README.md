@@ -1,11 +1,34 @@
 # Mouse Hunt
 
-**A text-based mouse hunting game.**
+**A text-based mouse hunting game inspired by Mousehunt&copy; Hitgrab.**
 
-Before you 'Join the Hunt':
-1. Do the training.
-1. Buy some cheese (Option 3. The Cheese Shop).
-1. Attach cheese to your trap (Option 4. Change Cheese).
+## Overview
+
+Mouse Hunt is a text-based hunting game built entirely from scratch in Python. Set in a medieval kingdom, you play as a hunter who sets traps, baits them with cheese, and sounds the horn to catch mice - each rendered with original ASCII art. The game features a training mode, a shop system, multiple trap and cheese types, and a gold and points economy.
+
+## Getting Started
+
+Before you join the hunt:
+1. Complete the training - it grants a one-time trap enchantment based on your chosen cheese
+2. Buy cheese from the Cheese Shop (Option 3)
+3. Attach cheese to your trap (Option 4 - Change Cheese)
+4. Join the hunt and sound the horn!
+
+## Features
+* **Training mode** - guided by Larry the instructor, teaches trap setup and hunting mechanics
+* **One-time enchantment** - completing training grants a bonus based on cheese choice:
+  * Cheddar → +25 points from next Brown mouse
+  * Marble → +25 gold from next Brown mouse
+  * Swiss → +0.25 attraction to Tiny mouse
+* **Trap types** - Cardboard and Hook Trap, High Strain Steel Trap, Hot Tub Trap
+* **Cheese types** - Cheddar, Marble, Swiss
+* **Mouse types** - Brown, Field, Grey, White, and Tiny
+* **Gold and points economy** - earn rewards from successful catches
+* **Kids-friendly name filter** - screens inappropriate hunter names on signup
+* **ASCII art** - original mouse art throughout the game
+
+## Tech Stack
+* Python 3
 
 ## How To Run
 
@@ -13,22 +36,5 @@ Before you 'Join the Hunt':
 python3 game_final.py
 ```
 
-![alt text](https://github.com/bbat2575/MouseHunt/blob/main/Mousehunter.png)
-
-## List of files
-
-* cshop.py - Cheese Shop
-
-* train.py - Training Game Features
-
-* game.py - Mini Game (w/out Art or Full Game Features)
-
-* mouse.py - Mouse Generator
-
-* test.py - Test Mouse Generator
-
-* name.py - Name Checking (Kids Friendly Feature)
-
-* setup.py - Check Setup Files (see logs)
-
-* game_final.py - The Full Game
+## Preview
+![Mouse Hunt](Mousehunter.png)
